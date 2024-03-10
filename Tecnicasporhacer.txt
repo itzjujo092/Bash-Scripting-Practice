@@ -1,0 +1,26 @@
+ -------------------->  Martingala  <--------------------
+ 
+La primera tecnica que vimos fue la "Martingala", que consiste en que tu haces una apuesta en una ruleta, o lo que sea pero que tenga probabilidad del 50/50% y luego despues de eso en caso de que pierdas, tienes que duplicar la cantidad y volver a apostar por el mismo color, siendo un ejemplo:
+
+EJM: Aposte que salia impar y perdi 5 dolares, pues vuelvo a apostar a que sale impar pero esta vez vamos a duplicar la apuesta, siendo 10 dolares, y asi sucesivamente...
+
+
+-------------------->  Reverse Labouchere <--------------------
+
+Esta tecnica consiste en que al momento de hacer una puesta, igualmente sencilla, osea que tenga probabilidad 50/50%, se va a realizar una operacion sencilla con base en una cadena <1,2,3,4> inicial, ejemplo puede ser el siguiente:
+
+EJM: Vamos a coger los extremos de esta cadena inicial, en este caso, el extremo izquierdo que es 1, mas el extremo derecho que es 4, por lo que 1+4=5, por lo que nuestra apuesta sera de 5 dolares, si nuestro resultado es positivo, se le agrega la ganancia de la apuesta, como la ganancia es la duplicada entonces vamos a agregar a la cadena <1,2,3,4,5> y hacemos lo mismo para la otra apuesta, sumar los extremo
+
+PERO SI pierdes en la secuencia, se borran los extremos, en el caso sencillo borrandose el 1 y 4, por lo que quedaria de la siguiente manera <2,3> por lo que se suman y asi progresivamente...
+
+-------------------> Fibonacci <---------------------
+
+El sistema fibonacci es una estrategia basica de ruleta utilizada de bajo riesgo para un modelo 50/50%, Consiste en seguir una secuencia establecida en matematicas, de forma que se sumas los numeros, siendo de la siguiente manera, siendo cada una la suma de las anteriores:
+
+-> <1, 1, 2, 3, 5, 8, 13, 21, 34, 55> 
+
+Siendo la de arriba la secuencia de Fibonacci, trabajandose de la siguiente manera:
+
+- SI PIERDES= Avanzas un escalon en la secuencia
+- SI GANAS= te mueves 2 hacia abajo, por ejemplo, hemos perdido 3 apuestas, estariamos apostando 2, si ganamos, ahora nos devolvemos 2, por lo tanto seria 1.
+
